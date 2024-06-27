@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Xanh+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    margin:20px;
+}
+.header{
+    width: 100%;
+height: 100vh;
+background-image:url(pexels-samkolder-2387873.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.head h1{
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: "Gluten", cursive;
+    font-weight: 700;
+    font-style: normal;
+      
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar{
+   flex: 1;
+  text-align: right;
+
+}
+.nav-bar ul{
+  gap: 90px;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+.nav-bar ul li{
+    list-style: none;
+    display:inline-block ;
+    padding: 8px 12px;
+    position: relative;
+    font-family: "Xanh Mono", monospace;
+    transition: 0.3s;
+    
+}
+.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar ul li  :hover{
+    transform: scale(1.1);
+    color: aqua;
+}
+.adv h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Gluten", cursive;
+}
+.adv{
+    color: white;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: large;
+}
+.adv p{
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+
+}
+form{
+    padding-top: 20px;
+    
+}
+.quote{
+    transition: 0.3s;
+    
+    
+}
+.quote:hover{
+    transform: scale(1.1);
+}
+#hi{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 46.5%;
+}
+.imag img {
+    position: absolute; 
+    bottom: 0; 
+    width:600px ;
+   
+}
+/* service */
+/* three */
+
+/* testonimol */
+
+/* contact */
+
+footer{
+    margin-top: px;
+background-color: rgba(24, 6, 6, 0.863);
+opacity: 70%;
+text-align: center;
+padding: 3px;
+color: white;
+}
